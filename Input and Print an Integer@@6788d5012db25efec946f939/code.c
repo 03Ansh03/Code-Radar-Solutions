@@ -1,5 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    printf("You enterd: 10");
+    int a;
+    scanf ("%d",&a);
+    printf("You enterd: %d",a)
 }
