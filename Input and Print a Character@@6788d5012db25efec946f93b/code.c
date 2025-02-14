@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     char A;
-    scanf("%c");
-    print("%c");
+    scanf("%c"&A);
+    print("%c",A);
     return 0;
 }
