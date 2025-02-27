@@ -1,13 +1,26 @@
 // Your code here...
-#include <stdio.h>
-int add(int a, int b);
+#include<stdio.h>
 int main(){
-    int res;
-    res = add(10, 20);
-    printf("Sum = %d\n", res);
+    int n;
+    scanf("%d",&n);
+    int not_prime = 0;
+    if((n==1)||(n==0)){
+        not_prime = 1;
+    }
+    else{
+        for(int i=2; i<n;i++){
+            if((n%i==0)&&(n!=2)){
+                not_prime = 1;
+                break;
+            }
+        }
+        
+    }
+    if(not_prime){
+        printf("Not Prime");
+    }
+    else{
+        printf("Prime");
+    }
     return 0;
-}
-int add(int a, int b){
-    int c = a + b;
-    return c;
 }
