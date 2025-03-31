@@ -10,12 +10,12 @@ int main() {
     int arr[n];
 
     
-    printf("Enter %d elements: ", n);
+    
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Assume the first element is the largest
+    
     max = arr[0];
 
     
@@ -25,7 +25,7 @@ int main() {
         }
     }
 
-    // Print the largest element
+    
     printf("%d\n", max);
 
     return 0;
