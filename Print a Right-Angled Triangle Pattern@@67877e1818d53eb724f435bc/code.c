@@ -2,10 +2,12 @@
 int main(){
     int n,i,j;
     scanf("%d",&n);
-    if(n=1){
-        printf("*");
+    for(i=0;i<n;i++){
+        for(j=0;j<i+1;j++){
+        printf("* ");
+    
     }
-    else if(n=2){
-        printf("* /n* *");
+    printf("\n");
     }
+    
 }
